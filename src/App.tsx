@@ -7,7 +7,8 @@ import './App.css';
 // import Example4 from './learn/custom-scale/index.js';
 // import Example6 from './learn/action-config/index1.js';
 // import Example7 from './learn/action-config/index2.js';
-import Example8 from './learn/grid-snap/index.js';
+// import Example8 from './learn/grid-snap/index.js';
+import Example9 from './learn/auxiliary-line-snap/index.js';
 
 export default function TimelineEditor() {
   return (
@@ -25,8 +26,11 @@ export default function TimelineEditor() {
         <Example6 />
         <Example7 />
       </> */}
-      <>
+      {/* <>
         <Example8 />
+      </> */}
+      <>
+        <Example9 />
       </>
     </>
   );
