@@ -1,0 +1,41 @@
+.timeline-editor-container {
+  .timeline-editor {
+    width: 100%;
+    height: 300px;
+
+    &-action {
+      height: 28px !important;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &-effect-effect0 {
+        cursor: pointer;
+        background-color: #cd9541;
+        background-image: url('/assets/soundWave.png');
+        background-position: bottom;
+        background-repeat: repeat-x;
+      }
+
+      .timeline-editor-action-left-stretch,
+      .timeline-editor-action-right-stretch {
+        overflow: inherit;
+
+        &::after {
+          width: 18px;
+          height: 18px;
+          background: #7c8185;
+          border: none;
+          transform: rotate(45deg) scale(0.8);
+        }
+      }
+
+      .timeline-editor-action-left-stretch::after {
+        left: -9px;
+      }
+
+      .timeline-editor-action-right-stretch::after {
+        right: -9px;
+      }
+    }
+  }
+}
