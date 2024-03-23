@@ -18,7 +18,7 @@ export const mockData: TimelineRow[] = [
       {
         id: 'action00',
         start: 0,
-        end: 2,
+        end: 30,
         effectId: 'effect0',
       },
     ],
@@ -28,8 +28,8 @@ export const mockData: TimelineRow[] = [
     actions: [
       {
         id: 'action10',
-        start: 1.5,
-        end: 5,
+        start: 5,
+        end: 20,
         effectId: 'effect1',
       },
     ],
@@ -39,8 +39,8 @@ export const mockData: TimelineRow[] = [
     actions: [
       {
         id: 'action20',
-        start: 3,
-        end: 4,
+        start: 30,
+        end: 40,
         effectId: 'effect0',
       },
     ],
@@ -50,14 +50,14 @@ export const mockData: TimelineRow[] = [
     actions: [
       {
         id: 'action30',
-        start: 4,
-        end: 7,
+        start: 40,
+        end: 70,
         effectId: 'effect1',
       },
       {
         id: 'action31',
-        start: 10,
-        end: 12,
+        start: 100,
+        end: 120,
         effectId: 'effect1',
       },
     ],
