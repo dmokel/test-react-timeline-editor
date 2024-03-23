@@ -1,7 +1,7 @@
 import { Timeline } from '@xzdarcy/react-timeline-editor';
 import { clone } from 'ramda';
 import React, { useState } from 'react';
-import { CustomRender0, CustomRender1 } from './custom0.js';
+import { CustomRender0, CustomRender1 } from './custom1.js';
 import './index.css';
 import { mockData, mockEffect } from './mock1.js';
 

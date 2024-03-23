@@ -6,6 +6,7 @@ import './App.css';
 // import Example5 from './learn/custom-scale/custom-style.js';
 // import Example4 from './learn/custom-scale/index.js';
 import Example6 from './learn/action-config/index1.js';
+import Example7 from './learn/action-config/index2.js';
 
 export default function TimelineEditor() {
   return (
@@ -21,6 +22,7 @@ export default function TimelineEditor() {
       </> */}
       <>
         <Example6 />
+        <Example7 />
       </>
     </>
   );
