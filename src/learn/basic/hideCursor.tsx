@@ -26,7 +26,6 @@ export default function TimelineEditor() {
           effects={mockEffect}
           hideCursor={!showCursor}
         />
-        div
       </div>
     </div>
   );

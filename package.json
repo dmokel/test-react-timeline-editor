@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-switch": "^1.0.3",
     "@xzdarcy/react-timeline-editor": "^0.1.9",
     "class-variance-authority": "^0.7.0",
