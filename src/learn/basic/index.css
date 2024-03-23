@@ -1,0 +1,10 @@
+.timeline-editor {
+  width: 100%;
+  height: 300px;
+
+  &-action {
+    height: 28px !important;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
