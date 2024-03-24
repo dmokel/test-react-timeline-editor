@@ -11,7 +11,8 @@ import './App.css';
 // import Example9 from './learn/auxiliary-line-snap/index.js';
 // import ExampleB from './learn/basic-event/index.js';
 // import ExampleA from './learn/callback/index.js';
-import ExampleC from './learn/scroll-sync/index.js';
+// import ExampleC from './learn/scroll-sync/index.js';
+import ExampleD from './learn/auto-scroll/index.js';
 
 export default function TimelineEditor() {
   return (
@@ -39,8 +40,11 @@ export default function TimelineEditor() {
         <ExampleA />
         <ExampleB />
       </> */}
-      <>
+      {/* <>
         <ExampleC />
+      </> */}
+      <>
+        <ExampleD />
       </>
     </>
   );
