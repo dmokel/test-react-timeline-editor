@@ -9,6 +9,7 @@ import './App.css';
 // import Example7 from './learn/action-config/index2.js';
 // import Example8 from './learn/grid-snap/index.js';
 // import Example9 from './learn/auxiliary-line-snap/index.js';
+import ExampleB from './learn/basic-event/index.js';
 import ExampleA from './learn/callback/index.js';
 
 export default function TimelineEditor() {
@@ -35,6 +36,7 @@ export default function TimelineEditor() {
       </> */}
       <>
         <ExampleA />
+        <ExampleB />
       </>
     </>
   );
